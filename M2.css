@@ -1,0 +1,179 @@
+* {
+  /* color: aliceblue; */
+  font-family: "Play", sans-serif;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(37, 76, 138);
+}
+
+header:hover {
+  background-color: rgb(16, 26, 43);
+}
+
+body.dark {
+  background-color: rgb(24, 24, 24);
+}
+
+.toggle {
+  cursor: pointer;
+}
+.toggle:hover {
+  color: rgb(85, 83, 83);
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+#navBarLinks {
+  display: flex;
+  justify-content: space-around;
+  width: 150%;
+  text-decoration: underline aliceblue;
+  text-transform: uppercase;
+  list-style: none;
+  /* margin-right: 20%; */
+}
+
+#navBarLinks a {
+  color: aliceblue;
+  text-decoration: none;
+  padding-left: 10px;
+}
+#navBarIcons a {
+  color: aliceblue;
+}
+
+#navBarIcons {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  color: white;
+  margin-right: 20px;
+  margin-left: 10%;
+}
+#bluePrint {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  opacity: 0.3;
+}
+
+#txtonpic {
+  font-family: system-ui;
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.DescriptionTot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.Description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  white-space: nowrap;
+  color: aliceblue;
+}
+
+.iconsDescript {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#ThreeDPrintSample:hover {
+  height: 450px;
+  transition: height 0.5s;
+}
+#sunnyKitesurf:hover {
+  height: 450px;
+  transition: height 0.5s;
+}
+#Machining:hover {
+  height: 450px;
+  transition: height 0.5s;
+}
+#AllyBracket:hover {
+  height: 450px;
+  transition: height 0.5s;
+}
+
+#ThreeDPrintSample,
+#sunnyKitesurf,
+#Machining,
+#AllyBracket {
+  height: 400px;
+  display: flex;
+  padding: 20px;
+  border-radius: 50px;
+  border: white 5px;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding-left: 40%;
+  padding-right: 40%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+#user-input1,
+#user-input2 {
+  background-color: white;
+  border-style: hidden;
+  border-radius: 20px;
+  border: 3px grey;
+}
+
+#sum-btn,
+#times-btn {
+  color: black;
+  border-style: hidden;
+  border-radius: 20px;
+}
+
+#sum-btn:hover {
+  background-color: rgb(49, 68, 102);
+  cursor: pointer;
+}
+#times-btn:hover {
+  background-color: rgb(49, 68, 102);
+  cursor: pointer;
+}
+
+#unit1,
+#sum-result {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  color: aliceblue;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  text-decoration: none;
+}
